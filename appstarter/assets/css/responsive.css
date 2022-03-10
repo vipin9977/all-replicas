@@ -1,0 +1,636 @@
+/* MQ starts */
+
+/* ------------ resolution 2560px ------------*/
+@media only screen and (max-width : 2560px) {
+
+    .header .hero-section {
+        height : 100% ;
+        padding-top : 18em ;
+    }
+}
+
+/* ------------- resolution 1440px ----------- */
+@media only screen and (max-width : 1440px) {
+
+    .header .hero-section {
+        padding-top : 4.6em ;
+    }
+}
+
+/* ------------- resolution 1024px ----------- */
+@media only screen and (max-width : 1024px) {
+
+    .header {
+        background-position : center -40px ;
+    }
+
+    .navigation .logo-box {
+        padding-left : 2% ;
+    }
+
+    .navigation .menu-items {
+        width : 62% ;
+        margin-right : 2% ;
+    }
+
+    .items a {
+        font-size : 1.1rem ;
+    }
+
+    .hero-details .hero-section__img {
+        padding-left : 2% ;
+    }
+
+    .app-starter-details .hero-section__heading {
+        font-size : 3rem ;
+    }
+
+    .hero-details .app-starter-details {
+        padding-right : 1% ;
+    }
+
+    .app-starter-details .hero-section__para {
+        font-size : 1.2rem ;
+    }
+
+    .team-details-box .team-details {
+        padding-left : 1% ;
+    }
+
+    .team-details-box .team-box {
+        width : 76% ;
+        padding-right : 1% ;
+    }
+
+    .team .about-overlay {
+        height : 36% ;
+        bottom : 35px ;
+    }
+
+    .team:hover .about-overlay {
+        padding-top : 0 ;
+        bottom: 35px;
+        height: 100%;
+    }
+
+    .team:hover .about-overlay h1 {
+        padding-top : 110px ;
+    }
+
+    .about-overlay .social-links {
+        margin-top : 18px ;
+    }
+
+    .show-case-inner-box .slider-box {
+        padding-left: 1.2% ;
+    }
+
+    .slider-box .slider-inner-box {
+        width : 92% ;
+    }
+
+    .pricing-inner-box .price-cards {
+        width : 98% ;
+    }
+
+    .footer-inner-section p {
+        margin-left : 2%
+    }
+    
+    .footer-inner-section ul {
+        margin-right : 2%
+    }
+
+    .newsletter-box {
+        background-position : center center ;
+    }
+}
+
+/* ------------- resolution 768px ------------ */
+@media only screen and (max-width : 768px){
+
+    .header .nav-section {
+        padding-top : 2px ;
+        padding-bottom : 2px ;
+    }
+
+    .navigation .hamburger-box {
+        width : 58px ;
+        display : flex ;
+        align-items : center ;
+    }
+
+    .hamburger .line {
+        height : 3px ;
+    }
+
+    .navigation .menu-items {
+        display : none ; 
+    }
+
+    .hero-details .hero-section__img {
+        width : 44% ;
+        padding-top : 2.1em ;
+    }
+
+    .app-starter-details .hero-section__heading {
+        font-size : 2rem ;
+    }
+
+    .app-starter-details .hero-section__para {
+        font-size : 1.1rem ;
+    }
+
+    .welcome-inner-box .welcome-box__heading , 
+    .pricing-inner-box .pricing-box__heading {
+        font-size : 2.4rem ;
+    }
+
+    .welcome-box__heading::after , 
+    .pricing-inner-box .pricing-box__heading::after {
+        left : 44% ;
+    }
+
+    .welcome-inner-box .team-details-box {
+        flex-direction : column ;
+        margin-top : 2.8em ;
+    }
+
+    .team-details-box .team-details {
+        width : 100% ;
+        text-align : center ;
+    }
+
+    .team-details-box .team-box {
+        width : 100% ;
+        margin-top : 4.2em ;
+        justify-content : space-around ;
+        padding-right : 0 ;
+    }
+
+    .team-box .team {
+        width : 46% ;
+    }
+
+    .team .about-overlay {
+        bottom : -20px ;
+    }
+
+    .team:hover .about-overlay {
+        bottom : 0 ;
+    }
+
+    .about-overlay .social-links {
+        width : 60% ;
+    }
+
+    .know-more-box {
+        padding-bottom : 50px ;
+    }
+
+    .know-more-inner-box .know-more__para-box {
+        width : 90% ;
+    }
+
+    .show-case-inner-box {
+        padding-top : 6em ;
+    }
+
+    .show-case-inner-box .slider-box {
+        padding-left : 2.6% ;
+    }
+
+    .show-case-inner-box .para-box {
+        width : 96% ;
+    }
+
+    .newsletter-inner-box .para-box {
+        width : 98% ;
+    }
+
+    .newsletter-inner-box .sending-email-box {
+        margin-top : 20px ;
+    }
+
+    .footer-inner-section .social-links {
+        width : 28% ;
+    }
+
+    .footer-inner-section ul {
+        margin-right : 5% ;
+    }
+}
+
+/* ------------- resolution 500px ------------ */
+@media only screen and (max-width : 500px) {
+
+    .header {
+        background-position : center center ;
+        height : 105vh ;
+    }
+
+    .header .nav-section ,
+    .nav-section .navigation {
+        padding-top : 0 ;
+    }
+
+    .navigation .hamburger-box {
+        width : 50px ;
+        height : 58px ;
+        padding-top : 5px ; 
+    }
+
+    .hero-section .hero-details {
+        flex-direction : column ;
+        padding-top : 0 ;
+    }
+
+    .hero-details .hero-section__img {
+        width : 70% ;
+        margin : 0 auto ;
+        padding-top : 18px ;
+        padding-left : 0 ;
+    }
+
+    .hero-details .app-starter-details {
+        width : 96% ;
+        padding-top : 30px ;
+        padding-right : 0 ;
+        margin : 0 auto ;
+        text-align : center ;
+    }
+    
+    .app-starter-details .hero-section__heading {
+        font-size : 1.8rem ;
+    }
+
+    .app-starter-details .hero-section__para {
+        font-size : 1rem ;
+    }
+    
+    :is(.header , .know-more-box , .price-type-cards) button , 
+    .sending-email-box input[type="submit"] {
+        font-size : 1.1rem ;
+    }
+
+    .welcome-inner-box .welcome-box__heading , 
+    .pricing-inner-box .pricing-box__heading , 
+    .show-case-inner-box h1 {
+        font-size : 1.9rem ;
+    }
+
+    .welcome-box__heading::after , 
+    .pricing-inner-box .pricing-box__heading::after {
+        left : 38% ;
+    }
+
+    .team-details-box h1 {
+        font-size : 1.6rem ;
+    }
+
+    .team-details-box .para-1 {
+        font-size : 1.2rem ;
+    }
+
+    .team-details-box .para-2 {
+        font-size : 1rem ;
+        font-weight : 300 ;
+        padding-right : 2% ;
+        padding-left : 2% ;
+    }
+
+    .team-details-box .team-box {
+        flex-direction : column ;
+    }
+
+    .team-box .team {
+        width : 94% ;
+        margin : 0 auto ;
+    }
+
+    .team-box .team-box-1 {
+        margin-bottom : 4em ;
+    }
+
+    .team .about-overlay {
+        bottom : -56px ;
+    }
+
+    .know-more-inner-box , 
+    .show-case-inner-box {
+        padding-top : 6em ;
+    }
+
+    .know-more-inner-box .know-more__para-box {
+        font-size : 1.6rem ;
+    }
+
+    .show-case-inner-box .para-box {
+        width : 96% ;
+        font-size : 1rem ;
+    }
+
+    .show-case-inner-box .slider-box {
+        margin-top : 4em ;
+        padding-left : 2% ;
+    }
+
+    .slider-box .slider-inner-box {
+        width : 96% ;
+    }
+
+    .pricing-inner-box .price-cards {
+        margin : 0 ;
+        margin-top : 4em ;
+        width : 100% ;
+        flex-direction : column ;
+    }
+
+    .price-cards .price-type-cards {
+        width : 92% ;
+        margin : 0 auto ;
+    }
+
+    .price-cards .price-type-cards:not(:last-child) {
+        margin-bottom : 5em ;
+    }   
+
+    .price-type-cards .register-btn {
+        bottom : -28px ;
+    }
+
+    .newsletter-inner-box {
+        padding-top : 5em ;
+    }
+
+    .newsletter-inner-box h1 {
+        font-size : 1.4rem ;
+    }
+
+    .newsletter-inner-box .para-box {
+        width : 90% ;
+        font-size : 1rem ;
+        color : var(--primary-color) ;
+    }
+
+    .newsletter-inner-box .sending-email-box {
+        margin-top : 4em ;
+    }
+
+    .sending-email-box input[type="email"] {
+        display : block ;
+        width : 86% ;
+        margin : 0 auto ;
+    }
+
+    .sending-email-box input[type="submit"] {
+        margin-top : 20px ;
+        padding : .8em 5em ;
+    }
+
+    .newsletter-box {
+        padding-bottom : 50px ;
+    }
+
+    .footer-inner-section {
+        flex-direction : column ;
+    }
+
+    .footer-inner-section p {
+        font-size : 1.1rem ;
+        text-align : center ;
+        margin-left : 0 ;
+        margin-bottom : 20px ;
+        word-spacing : 6px ;
+    }
+
+    .footer-inner-section .social-links {
+        width : 80% ;
+        margin-right : 0 ;
+    }
+}
+
+/* ------------- resolution 425px ------------ */
+@media only screen and (max-width : 425px) {
+
+    .header {
+        background-position : center center ;
+        height : 105vh ;
+    }
+
+    .header .nav-section ,
+    .nav-section .navigation {
+        padding-top : 0 ;
+    }
+
+    .navigation .hamburger-box {
+        width : 50px ;
+        height : 58px ;
+        padding-top : 5px ; 
+    }
+
+    .hero-section .hero-details {
+        flex-direction : column ;
+        padding-top : 0 ;
+    }
+
+    .hero-details .hero-section__img {
+        width : 70% ;
+        margin : 0 auto ;
+        padding-top : 18px ;
+        padding-left : 0 ;
+    }
+
+    .hero-details .app-starter-details {
+        width : 96% ;
+        padding-top : 30px ;
+        padding-right : 0 ;
+        margin : 0 auto ;
+        text-align : center ;
+    }
+    
+    .app-starter-details .hero-section__heading {
+        font-size : 1.8rem ;
+    }
+
+    .app-starter-details .hero-section__para {
+        font-size : 1rem ;
+    }
+    
+    :is(.header , .know-more-box , .price-type-cards) button , 
+    .sending-email-box input[type="submit"] {
+        font-size : 1.1rem ;
+    }
+
+    .welcome-inner-box .welcome-box__heading , 
+    .pricing-inner-box .pricing-box__heading , 
+    .show-case-inner-box h1 {
+        font-size : 1.9rem ;
+    }
+
+    .welcome-box__heading::after , 
+    .pricing-inner-box .pricing-box__heading::after {
+        left : 38% ;
+    }
+
+    .team-details-box h1 {
+        font-size : 1.6rem ;
+    }
+
+    .team-details-box .para-1 {
+        font-size : 1.2rem ;
+    }
+
+    .team-details-box .para-2 {
+        font-size : 1rem ;
+        font-weight : 300 ;
+        padding-right : 2% ;
+        padding-left : 2% ;
+    }
+
+    .team-details-box .team-box {
+        flex-direction : column ;
+    }
+
+    .team-box .team {
+        width : 94% ;
+        margin : 0 auto ;
+    }
+
+    .team-box .team-box-1 {
+        margin-bottom : 4em ;
+    }
+
+    .team .about-overlay {
+        bottom : -32px ;
+    }
+
+    .know-more-inner-box , 
+    .show-case-inner-box {
+        padding-top : 6em ;
+    }
+
+    .know-more-inner-box .know-more__para-box {
+        font-size : 1.6rem ;
+    }
+
+    .show-case-inner-box .para-box {
+        width : 96% ;
+        font-size : 1rem ;
+    }
+
+    .show-case-inner-box .slider-box {
+        margin-top : 4em ;
+        padding-left : 6% ;
+    }
+
+    .pricing-inner-box .price-cards {
+        margin : 0 ;
+        margin-top : 4em ;
+        width : 100% ;
+        flex-direction : column ;
+    }
+
+    .price-cards .price-type-cards {
+        width : 92% ;
+        margin : 0 auto ;
+    }
+
+    .price-cards .price-type-cards:not(:last-child) {
+        margin-bottom : 5em ;
+    }   
+
+    .price-type-cards .register-btn {
+        bottom : -28px ;
+    }
+
+    .newsletter-inner-box {
+        padding-top : 5em ;
+    }
+
+    .newsletter-inner-box h1 {
+        font-size : 1.4rem ;
+    }
+
+    .newsletter-inner-box .para-box {
+        width : 90% ;
+        font-size : 1rem ;
+        color : var(--primary-color) ;
+    }
+
+    .newsletter-inner-box .sending-email-box {
+        margin-top : 4em ;
+    }
+
+    .sending-email-box input[type="email"] {
+        display : block ;
+        width : 86% ;
+        margin : 0 auto ;
+    }
+
+    .sending-email-box input[type="submit"] {
+        margin-top : 20px ;
+        padding : .8em 5em ;
+    }
+
+    .newsletter-box {
+        padding-bottom : 50px ;
+    }
+
+    .footer-inner-section {
+        flex-direction : column ;
+    }
+
+    .footer-inner-section p {
+        font-size : 1.1rem ;
+        text-align : center ;
+        margin-left : 0 ;
+        margin-bottom : 20px ;
+        word-spacing : 6px ;
+    }
+
+    .footer-inner-section .social-links {
+        width : 80% ;
+        margin-right : 0 ;
+    }
+}
+
+/* ------------- resolution 375px ------------ */
+@media only screen and (max-width : 375px) {
+
+    .app-starter-details .hero-section__para {
+        padding-right : 2% ;
+        padding-left : 2% ;
+    }
+
+    .welcome-box .welcome-inner-box , 
+    .pricing-inner-box {
+        padding-top : 5em ;
+    }
+    
+    .show-case-inner-box .slider-box {
+        padding-left : 5% ;
+    }
+
+    .slider-box .slider-inner-box {
+        width : 95% ;
+    }
+
+}
+
+/* ------------- resolution 320px ------------ */
+@media only screen and (max-width : 320px) {
+
+    .navigation .logo-box {
+        padding-left : 3% ;
+    }
+
+    .team .about-overlay {
+        bottom : -6px ;
+    }
+
+    .sending-email-box input[type="submit"] {
+        padding-right : 3rem ;
+        padding-left : 3rem ;
+    }
+}

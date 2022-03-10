@@ -1,0 +1,185 @@
+/* MQ of flexbox hielo layout */
+
+/* MQ for laptop large */
+/* 1330 resolution */
+@media (max-width : 1330px ){
+
+    header nav{
+        padding-right : 1% ;
+        padding-left : 1% ;
+    }
+}
+
+/* MQ for normal laptop */
+/* 1024 resolution */
+@media (max-width : 1024px ){
+
+    .info-box .inner ,
+    .center-inner{
+        padding-right : 2% ;
+        padding-left : 2% ;
+    }
+
+    .box h2::before {
+        width: 56%;
+    }
+
+    .box .second-para{
+        font-size: .80rem;
+    }
+
+    .gallery-card{
+        padding-bottom : 2px ;
+    }
+    
+}
+
+/* MQ for tablet */
+/* 768 resolution */
+@media (max-width : 768px ){
+
+    .banner h1::before {
+        width: 38%;
+        left : 30% ;
+    }
+
+    .box .first-para{
+        font-size : .68rem ;
+    }
+
+    .box h2::before {
+        width: 76%;
+        left : 12% ;
+    }
+
+    .box h2{
+        font-size : 1.4rem ;
+    }   
+
+    .box .second-para {
+        font-size: .66rem;
+        color: black;
+        padding-left: 3%;
+    }
+
+    .gallery-box .inner h2::before{
+        left : 23% ;
+    }
+
+    .gallery-card{
+        padding-bottom : 2px ;
+    }
+
+}
+
+/* MQ for mobile large */
+/* 425 resolution */
+@media (max-width : 425px ){
+
+    .banner{
+        margin-top : 40% ;
+    }
+
+    .banner p{
+        font-size : .70rem ;
+    }
+
+    .banner h1{
+        font-size : 5rem ;
+    }
+
+    .banner h1::before {
+        width: 50%;
+        left: 24%;
+    }
+
+    .inner .box{
+        width : 100% ;
+        display : flex ;
+        flex-wrap : wrap ;
+        flex-direction : column ;
+        align-content : space-between ;
+    }
+
+    .inner .right-box{
+        margin-top : 60px ;
+    }
+
+    .box .first-para{
+        font-size : .78rem ;
+    }
+
+    .box .second-para {
+        font-size : .72rem ;
+        padding-left : 7% ;
+    }
+
+    .small-banner .inner h2::before{
+        width : 70% ;
+        left : 58px ;
+    }
+
+    .gallery-box .inner h2::before {
+        left: 15%;
+        width: 70%;
+    }
+
+    .gallery-card{
+        width : 100% ;
+        padding : 2% 2% .8% ;
+    }
+
+    .center-inner{
+        padding-bottom : 20px ;
+    }
+    
+}
+
+/* MQ for mobile Medium */
+/* 375 resolution */
+@media (max-width : 375px ){
+
+    header{
+        width : 100% ;
+    }
+
+    nav{
+        padding-right : 2% ;
+        padding-left : 2% ;
+    }
+
+    nav a {
+        font-size : .85rem ;
+    }
+
+    a span{
+        font-size : .94rem ;
+    }
+
+    nav a h5{
+        font-size : .80rem ;
+    }
+
+    .box .second-para {
+        font-size : .65rem;
+    }
+} 
+
+/* MQ for small mobiles */
+/* 320 resolution */
+@media (max-width : 320px ){
+
+    .banner h1::before {
+        width: 65%;
+        left: 18%;
+    }
+
+    .box .second-para {
+        font-size: 0.75rem;
+    }
+
+    .small-banner .inner h2::before {
+        width: 70%;
+        left: 15%;
+    }
+}

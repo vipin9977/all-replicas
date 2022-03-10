@@ -1,0 +1,16 @@
+@mixin commonBackgroundStuff {
+    background-size : cover ;
+    background-position : center ;
+    background-repeat : no-repeat ;
+}
+
+@mixin centerGridStuff {
+    display: grid ;
+    place-items : center;
+}
+
+@mixin centerStuff2 {
+    display: flex;
+    justify-content: space-between ;
+    align-items: center;
+}

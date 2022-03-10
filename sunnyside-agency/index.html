@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- title -->
+    <title>Sunnyside agency | Frontend Mentor </title>
+    <!-- SEO -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="replica of random site">
+    <meta name="keywords" content="html , css , sass , preprocessor">
+    <meta name="author" content="friends">
+    <!-- favicon -->
+    <link rel="shortcut icon" type="image/icon" href="./favicon.ico">
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@100;200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- custom css -->
+    <link rel="stylesheet" href="./css/style.css">
+    <!-- custom js -->
+    <script src="./script.js" defer></script>
+</head>
+<body>
+    
+    <!-- header-section -->
+    <header class="header">
+        <nav class="navigation">
+            <div class="navigation__inner fixed-section">
+                <a href="#">
+                    <div class="navigation__logo">
+                        <img src="./images/logo.svg" alt="LOGO">
+                    </div>
+                </a>
+                
+                <div class="navigation__hamburger">
+                    <img src="./images/icon-hamburger.svg" alt="hamburger">
+                </div>
+                
+                <ul class="navigation__menu">
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Projects</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+        
+        <section class="hero-section hero-section__inner fixed-section">
+            <h1 class="hero-section__title">WE ARE <span>CREATIVES</span></h1>
+            <div class="hero-section__scrolldown">
+                <a href="#about">
+                    <img src="./images/icon-arrow-down.svg" alt="scrolldown">
+                </a>
+            </div>
+        </section>
+    </header>
+
+    <!-- about-section -->
+    <section class="about-section" id="about">
+        <div class="about-section__one">
+            <div class="about__inner fixed-section">
+                <div class="about__img about__img--one">
+                    <img src="./images/desktop/image-transform.jpg" alt="egg">
+                </div>
+                <div class="about__body">
+                    <h1 class="about-one__title">Transform your <span>brand</span></h1>
+                    <p class="about-one__description">
+                        We are a full-service creative agency specializing in
+                        helping brands grow fast. Engage your clients through
+                        compelling visuals that do most of the marketing for you.
+                    </p>
+                    <a href="#" class="learn-btn about-one__btn">LEARN MORE</a>
+                </div>
+            </div>
+        </div>
+        <div class="about-section__two">
+            <div class="about__inner fixed-section">
+                <div class="about__img about__img--two">
+                    <img src="./images/desktop/image-stand-out.jpg" alt="stand">
+                </div>
+                <div class="about__body">
+                    <h1 class="about-two__title">Stand out to the right audience</h1>
+                    <p class="about-two__description">
+                        Using a collaborative formula of designers,
+                        researchers, photographers, videographers,and
+                        copywriters, we’ll build and extend your brand in digital places.
+                    </p>
+                    <a href="#" class="learn-btn about-two__btn">LEARN MORE</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- work-section -->
+    <section class="work-section">
+        <div class="work-section__inner fixed-section">
+            <div class="work-one">
+                <h1 class="work__title">Graphic Design</h1>
+                <p class="work__description">Great design makes you memorable. We deliver artwork that
+                    underscores your brand message and captures potential
+                    clients’ attention.
+                </p>
+            </div>
+            <div class="work-two">
+                <h1 class="work__title">Photography</h1>
+                <p class="work__description">Increase your credibility by getting the most stunning, high-
+                    quality photos that improve your business image.
+                </p>
+            </div>
+        </div>
+    </section>
+    
+    <!-- testimonials-section -->
+    <section class="testimonials-section">
+        <div class="testimonials-section__inner fixed-section">
+            <h1 class="testimonials__title">CLIENT TESTIMONIALS</h1>
+        
+            <div class="testimonials-box">
+                <div class="testimonials testimonials-box__one">
+                    <div class="client__img">
+                        <img src="./images/image-emily.jpg" alt="client1">
+                    </div>
+                    <div class="client__info">
+                        <p class="client__description">
+                            We put our trust in Sunnyside and they delivered,
+                            making sure our needs were met and deadlines were
+                            always hit.
+                        </p>
+                        <h3 class="client__name">Emily R.</h3>
+                        <h5 class="client__occupation">Marketing Director</h5>
+                    </div>
+                </div>
+                <div class="testimonials testimonials-box__two">
+                    <div class="client__img">
+                        <img src="./images/image-thomas.jpg" alt="client2">
+                    </div>
+                    <div class="client__info">
+                        <p class="client__description">
+                            Sunnyside’s enthusiasm coupled with their keen
+                            interest in our brand’s success made it a satisfying and
+                            enjoyable experience.
+                        </p>
+                        <h3 class="client__name">Thomas S.</h3>
+                        <h5 class="client__occupation">Chief Operating Officer</h5>
+                    </div>
+                </div>
+                <div class="testimonials testimonials-box__three">
+                    <div class="client__img">
+                        <img src="./images/image-jennie.jpg" alt="client3">
+                    </div>
+                    <div class="client__info">
+                        <p class="client__description">
+                            Incredible end result! Our sales increased over 400%
+                            when we worked with Sunnyside. Highly
+                            recommended!
+                        </p>
+                        <h3 class="client__name">Jennie F.</h3>
+                        <h5 class="client__occupation">Business Owner</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- gallery-section -->
+    <section class="gallery-section">
+        <div class="gallery gallery-one">
+            <img src="./images/desktop/image-gallery-milkbottles.jpg" alt="cone">
+            <img src="./images/mobile/image-gallery-milkbottles.jpg" alt="cone">
+        </div>
+        <div class="gallery gallery-two">
+            <img src="./images/desktop/image-gallery-orange.jpg" alt="cone">
+            <img src="./images/mobile/image-gallery-orange.jpg" alt="cone">
+        </div>
+        <div class="gallery gallery-three">
+            <img src="./images/desktop/image-gallery-cone.jpg" alt="cone">
+            <img src="./images/mobile/image-gallery-cone.jpg" alt="cone">
+        </div>
+        <div class="gallery gallery-four">
+            <img src="./images/desktop/image-gallery-sugarcubes.jpg" alt="cone">
+            <img src="./images/mobile/image-gallery-sugar-cubes.jpg" alt="cone">
+        </div>
+    </section>
+
+    <!-- footer-section -->
+    <footer class="footer">
+        <div class="footer__inner fixed-section">
+            <div class="logo">
+                <a href="#"><img src="./images/logo-footer.svg" alt="logo"></a>
+            </div>
+
+            <ul class="menu">
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Projects</a></li>
+            </ul>
+
+            <div class="social-box">
+                <div class="facebook">
+                    <a href="#"><img src="./images/icon-facebook.svg" alt="facebook"></a>
+                </div>
+                <div class="instagram">
+                    <a href="#"><img src="./images/icon-instagram.svg" alt="instagram"></a>
+                </div>
+                <div class="twitter">
+                    <a href="#"><img src="./images/icon-twitter.svg" alt="twitter"></a>
+                </div>
+                <div class="pinterest">
+                    <a href="#"><img src="./images/icon-pinterest.svg" alt="pinterest"></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>

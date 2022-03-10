@@ -1,0 +1,317 @@
+/* flexbox ---->> hielo layout  */
+
+*{
+    margin : 0 ;
+    padding : 0 ;
+    box-sizing : border-box ;
+    font-family : 'Poppins', sans-serif ;
+}
+
+:root{
+    --fixed-width : 1200px ; 
+    --common-color : #fff ;
+}
+
+/* header starts */
+header{
+    width : 100% ;
+    height : 90vh ;
+    background-image : url("../img/slide01-1.jpg") ;
+    background-repeat : no-repeat ;
+    background-attachment : fixed ;
+    background-size : cover ;
+}
+
+header nav{
+    max-width : 1320px ;
+    height : 40px ;
+    /* background-color : burlywood ; */
+    margin : 0 auto ;
+    position : relative ;
+    top : 6% ;
+    display : flex ;
+    justify-content : space-between ;
+}
+
+nav a{
+    text-decoration : none ;
+    color : #AAB5B4 ;
+}
+
+a span{
+    color : var(--common-color) ;
+    font-size : 1.2rem ;
+}
+
+.logo span:hover{
+    color : #AAB5B4 ;
+}
+
+nav a h5{
+    color : var(--common-color) ;
+    font-size : 1rem ;
+    font-weight : 300 ;
+}
+
+.banner{
+    max-width : var(--fixed-width) ;
+    padding-bottom : 90px ;
+    /* background-color : black ; */
+    margin : 10% auto 0 ;
+    text-align : center ;
+}
+
+.banner p{
+    color : #98999C ; 
+    letter-spacing : 2px ;
+    margin-bottom : 22px ;
+}
+
+p a{
+    color : var(--common-color) ;  
+    text-decoration : none ;
+}
+
+.banner h1{
+    color : var(--common-color) ;
+    font-weight : 300 ;
+    font-size : 7rem ;
+    position : relative ;
+}
+
+.banner h1::before{
+    content : "" ;
+    width : 25% ;
+    border-top : 1px solid #999999 ;
+    position : absolute ;
+    left : 37% ;
+}
+/* header ends */
+
+/* info-box starts */
+.info-box{
+    width : 100% ;
+    background-color : #F2F2F2 ;
+}
+
+.info-box .inner{
+    max-width : 1200px ;
+    padding-bottom : 100px ;
+    /* background-color : salmon ; */
+    margin : 0 auto ;
+    padding-top : 80px ;
+    display : flex ;
+    flex-wrap : wrap ;
+    justify-content : space-between ;
+}
+
+.inner .box{
+    width : 47% ;
+    padding-bottom : 60px ;
+    background-color : var(--common-color) ;
+    text-align : center ;
+}
+
+.box img{
+    width : 100% ;
+}
+
+.box .first-para{
+    color : #746f6f ;
+    margin : 30px 0 10px ;
+    font-size : 0.70rem ;
+    font-weight : 300 ;
+    letter-spacing : 3px ;
+}
+
+.box h2{
+    color : #000031 ;
+    font-size : 1.7rem ;
+    font-weight : 300 ;
+    line-height : 45px ;
+    position : relative ;
+}
+
+.box h2::before{
+    content : "" ;
+    width : 45% ;
+    border-top : 1px solid #DFDFDF ;
+    position : absolute ;
+}
+
+.box .second-para{
+    margin-top : 25px ;
+    text-align : left ;
+    padding-left : 9% ;
+    font-size : .90rem ;
+    line-height : 25px ;
+    color : #a19d9d ;
+    font-weight : 300 ;
+}
+
+.box a {
+    text-decoration : none ;
+}
+
+.box a button{
+    margin-top : 30px ;
+    width : 130px ;
+    height : 45px ;
+    border-radius : 2px ;
+    border : 2px solid #D9D9D9 ;
+    font-family : 'Poppins', sans-serif ;
+    background-color : transparent ;
+    cursor : pointer ;
+    font-size : .90rem ;
+    text-transform : uppercase ;
+    font-weight : 300 ;
+}
+
+.box a button:hover{
+    background-color : rgb(240, 238, 238) ;
+}
+/* info-box ends */
+
+/* small-banner starts */
+.small-banner{
+    width : 100% ;
+    padding-bottom : 100px ;
+    background-image : url("../img/bg-1.jpg") ;
+    background-repeat : no-repeat ;
+    background-attachment : fixed ;
+    background-position : center center;
+    background-size : cover ;
+}
+
+.small-banner .inner {
+    max-width : var(--fixed-width) ;
+    padding-top : 100px ;
+    margin : 0 auto ;
+    text-align : center ;
+    display : flex ;
+    flex-wrap : wrap ;
+    flex-direction : column ;
+    justify-content : center ;
+    align-content : center ;
+    color : var(--common-color) ;
+}
+
+.small-banner .inner p ,
+.gallery-box .inner p{
+    color : #909091 ;
+    font-size : .70rem ;
+    letter-spacing : 4px ;
+    margin-bottom : 15px ;
+}
+
+.small-banner .inner h2 ,
+.gallery-box .inner h2{
+    font-size : 1.60rem ;
+    font-weight : 300 ;
+    line-height : 55px ;
+    position : relative ;
+}
+
+.small-banner .inner h2::before {
+    content : "" ;
+    width : 91% ;
+    border-top : 1px solid #999999 ;
+    position : absolute ;
+    left : 30px ;
+}
+/* small-banner ends */
+
+/* gallery-box starts */
+.gallery-box{
+    width : 100% ;
+    padding-bottom : 100px ;
+    background-color : #F2F2F2 ;
+    display : flex ;
+    flex-wrap : wrap ;
+    align-content : center ;
+}
+
+.gallery-box .inner{
+    max-width : var(--fixed-width) ;
+    /* background-color : red ; */
+    margin : 0 auto ;
+    padding-top : 90px ;
+    text-align : center ;
+}
+
+.gallery-box .inner h2::before{
+    content: "";
+    width: 53%;
+    border-top : 1px solid #DFDFDF ;
+    position: absolute;
+    left: 280px;
+
+}
+
+.center-inner{
+    width : 100% ;
+    padding-bottom : 10px ;
+    /* background-color : burlywood ; */
+    padding-top : 5px ;
+    display : flex ;
+    flex-wrap : wrap ;
+    justify-content : space-between ;
+    align-content : space-between ;
+
+}
+
+.gallery-card{
+    width : 48% ;
+    padding: 1% 1% .6%;
+    background-color : var(--common-color) ;
+    margin-top : 60px ;
+    overflow : hidden ;
+}
+
+.gallery-card img{
+    width : 100% ;
+    transition-property : all ;
+    transition-duration : 500ms ;
+    transition-timing-function : ease-in-out ;
+}
+
+.gallery-card img:hover{
+    transform : scale(1.01) ;
+}
+/* gallery-box ends */
+
+
+/* footer starts */
+footer{
+    width : 100% ;
+    padding: 80px 0 80px;
+    background-color : #000000 ;
+    color : #808080 ;
+}
+
+footer .inner{
+    max-width : var(--fixed-width) ;
+    margin : 0 auto ;
+    display : flex ;
+    flex-wrap : wrap ;
+    flex-direction : column ;
+    justify-content : center ;
+    align-content : center ;
+}
+
+.social-links{
+    width : 170px ;
+    padding-bottom :20px ;
+    margin : 0 auto ;
+    font-size : 1.90rem ;
+    display : flex ;
+    flex-wrap : wrap ;
+    justify-content : space-between ;
+}
+
+.social-links span:hover{
+    color : var(--common-color) ;
+}
+/* footer ends */
+
+
